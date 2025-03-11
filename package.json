@@ -1,14 +1,24 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/boilerplate-npm.git"
+  },
+  "description": "This is just a sample of the description using the package.json, you can use this to be reachable if it becomes a public package",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-npm/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme",
+  "version": "1.2.0",
+  "devDependencies": {},
+  "keywords": ["sample", "example", "test", "freecodecamp"],
+  "author": "Hector Lazcano",
+  "license": "ISC"
 }
